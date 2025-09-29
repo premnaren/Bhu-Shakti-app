@@ -42,29 +42,29 @@ External Data Integration: Genkit Tools are engineered to fetch real-time data a
 
 # 🚀 Setup and Installation (PWA)
 Prerequisites
-Node.js (LTS version)
+1. Node.js (LTS version)
 
-A Google AI API Key with access to the Gemini family of models.
+2. A Google AI API Key with access to the Gemini family of models.
 
-A Firebase project configured with Cloud Firestore.
+3. A Firebase project configured with Cloud Firestore.
 
 Getting Started
-Clone the Repository:
+* Clone the Repository:
 
 git clone [Your Repository URL]
 cd bhu-shakti
 
-Install Dependencies:
+* Install Dependencies:
 
 npm install
 
-Configure Environment Variables:
+* Configure Environment Variables:
 Create a .env.local file in the root directory and add your keys:
 
- Firebase Configuration
+* Firebase Configuration
 NEXT_PUBLIC_FIREBASE_CONFIG={ ... }
 
- Gemini/Genkit Configuration
+* Gemini/Genkit Configuration
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
  Additional Genkit/Firebase Admin keys for server-side flows
  ...
