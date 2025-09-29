@@ -61,13 +61,13 @@ npm install
 Configure Environment Variables:
 Create a .env.local file in the root directory and add your keys:
 
-# Firebase Configuration
+ Firebase Configuration
 NEXT_PUBLIC_FIREBASE_CONFIG={ ... }
 
-# Gemini/Genkit Configuration
+ Gemini/Genkit Configuration
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-# Additional Genkit/Firebase Admin keys for server-side flows
-# ...
+ Additional Genkit/Firebase Admin keys for server-side flows
+ ...
 
 Run the Development Server:
 
